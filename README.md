@@ -1,7 +1,7 @@
 # Main Features
 - ## Initial Release
 - registration/login/logout.
-- When registering, ability to write terms of service/privacy policy.
+- You can review the terms of service and privacy policy when signing up.
 - Left top menu bar shows list of boards, can post on each board: Post writing uses summernote editor.
 - Can leave comments on each post, view count increases by 1 per IP: Mention (@nickname) function in comments  .
 - Like/dislike functionality for posts and comments.
