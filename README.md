@@ -34,6 +34,8 @@
 # Installation & Usage
 Since important files like lib/db.php or lib/db_conn.php in the project are written privately,
 there are no instructions for usage. It's just view-only.
+You can access this site through the link below.<br>
+http://3.37.5.30/
 
 <br>
 
