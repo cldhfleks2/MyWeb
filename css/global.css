@@ -1,0 +1,80 @@
+html, body {margin:0; padding:0; background:#efefef; width:100%; height:100%;}
+a {color: #4285F4; cursor:pointer; text-decoration:none;} /*회원가입, 비번찾기 색상*/
+ul, li {list-style:none; margin:0; padding:0; }
+.cp {cursor:pointer;}
+.top {background-color:#000; text-align:center; height:70px;} /*상단검은색바 height:60px;*/
+.top img {width:128px; height:70px;} /* logo.png사이즈 width:110px; height:62px;*/
+.top .topInner i {color:#fff; font-size:34px; position:absolute; margin:13px;}
+.top .topInner i.fa-bars {left:10px;}
+.top .topInner i.fa-user {right:10px;}
+.top .topInner .bottom_sns {margin-bottom:10px;}
+.top .topInner .bottom_sns i {margin:0 10px; cursor:pointer; font-size:1.5em; color:#000; position:relative;}
+.top .topInner .bottom_sns i.fa-youtube:hover {color:#FF0000;}
+.top .topInner .bottom_sns i.fa-facebook-f:hover {color:#4267B2;}
+.top .topInner .bottom_sns i.fa-instagram:hover {color:#C6025E;}
+
+.top .topInner {max-width:1000px; margin:0 auto; position:relative;}
+.top .login_btn {padding:10px 15px; color:#fff; position:absolute; margin:10px; right:10px; background-color: #4285F4; border-radius: 5px; cursor:pointer;}
+.top .profile_Picture {width:40px; height:40px; margin:10px; background-size:cover; position:absolute; right:10px; border-radius:100%; background-color: #fff;}
+.top .userInfo {width:110px; position:absolute; padding:20px; background:#fff; right:0px; border:1px solid #ccc; text-align:left; margin-top:60px; display:none; font-size:12px; z-index:14; }
+.top .userInfo div {padding:4px 0;}
+.top .noti {position:absolute; right:120px; cursor:pointer;}
+.top .noti .notiNum {position:absolute; background:#E75444; padding:5px 3px; left:30px; top:35px; border-radius:100%; z-index:12; color:#fff; font-size:10px; text-align:center;}
+.top .menu {width:300px; height:100%; background:#04B3A4; position:fixed; z-index:11; margin-left:-100%;}
+.top .menu .menuInner {width:calc(100% - 40px); padding:20px; text-align:left; position:relative; z-index:13;}
+.top .menu .menuOuter {height:100%; width:1000%; background:#04B3A4 ; left:calc(-900% - 150px); position:absolute; z-index:12;}
+.top .menu .menuInner .search {margin-bottom:30px;}
+.top .menu .menuInner .realMenu li {margin-bottom:20px; color:#fff;}
+.top .menu .mBottom {position:absolute; z-index:14; bottom:80px; height:50px; width:100%; font-size:12px;}
+.top .menu .menuInner .realMenu li a{color:#fff !important;}
+.top .menu .menuInner .realMenu li i{font-size:inherit; position:relative; margin:0;}
+.top .menu .menuInner .realMenu li hr{border:1px solid #fff; margin-bottom:20px;}
+
+.contents {width:calc(100% - 100px); padding:50px; max-width:900px; background:#fff; margin:0 auto;} 
+
+@media all and(min-width:1000px) {
+	.contents {width:calc(100% - 100px); padding:50px;}
+}
+
+@media all and (max-width:780px) and (min-width:1000px) {
+	.contents {width:calc(100% - 60px); padding:30px;}
+}
+
+@media all and (max-width:640px) {
+	.contents {width:calc(100% - 40px); padding:20px;}
+}
+
+.contents .bTitle {font-size:24px;}
+.contents .bTitle a {color:#4285F4;}
+.contents .hello {text-align:center;}
+
+.bottom{text-align:center; padding-top:10px; color:#999;}
+.bottom .bottom_sns {margin-bottom:20px; font-size:1.5em;}
+.bottom .bottom_sns a {color:#999;}
+.bottom .bottom_sns i {margin:0 10px; cursor:pointer;}
+.bottom .bottom_sns i.fa-youtube:hover {color:#FF0000;}
+.bottom .bottom_sns i.fa-facebook-f:hover {color:#4267B2;}
+.bottom .bottom_sns i.fa-instagram:hover {color:#C6025E;}
+
+.login {width:480px; background:#fff; position:absolute; top:100px; left:50%; margin-left:-240px; z-index:12; display:none;}
+.login .login_inner {width:calc(100% - 60px); margin: 30px; padding-bottom:10px;} 
+.login .login_inner .title {font-size: 32px; text-align:center; margin-bottom:10px;}
+.login .login_inner input {width: 100%; font-size:24px; padding:6px; margin-bottom:10px;}
+.login .login_inner button {width: 100%; font-size:24px; padding:8px; background-color:#4285F4; border: 0; color:#fff;}
+.login .login_inner .signlink {font-size:12px; margin-top:10px; cursor:pointer;}
+.login .login_inner .signlink.signBtn {float:left;}
+.login .login_inner .signlink.idpwSearch {float:right;} 
+
+.bg {background:RGBA(0,0,0,0.5); width:100%; height:100%; position:fixed; top:60px; z-index:10; display:none;}
+
+.gsc-control-cse {background:none !important; border:0px !important; padding:0 !important;}
+.gsc-search-button,.gsc-search-button-v2 {background:none !important; border:0px !important; padding:6px 6px !important;}
+.gsc-search-button:active,.gsc-search-button-v2:active {background:none !important; border:0px !important;}
+.gsc-input {padding:0 !important; border:0 !important;}
+.gsc-input-box .gsc-input { background-image: none !important;} 
+/*.grecaptcha-badge {display:none;}*/
+
+.gcsc-find-more-on-google-branding .gcsc-branding {display:none;}
+
+
+
