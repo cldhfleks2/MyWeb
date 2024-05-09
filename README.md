@@ -36,4 +36,4 @@ http://3.37.5.30/
 <br>
 
 # Solo Project
-It was created for studying web development and cloud services. I hope this project will be helpful to others interested in these fields.
+개인적인 웹사이트 프로젝트입니다. 웹사이트에 관심있는 다른분들에게 도움이 되길 바랍니다.
