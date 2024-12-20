@@ -31,7 +31,7 @@
 # Installation & Usage
 프로젝트 내의 lib/db.php나 lib/db_conn.php와 같은 중요한 파일들은 비공개로 작성 되어있습니다.<br>
 아래의 url로 사이트 접속이 가능합니다.<br>
-http://3.37.5.30/
+트래픽으로 금액이 생각보다 나와서 현재 url은 비공개하겠습니다.<br>
 
 <br>
 
